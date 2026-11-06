@@ -31,7 +31,10 @@ class WindyCameraPlatform {
     this.stopped = false;
 
     const base = path.join(api.user.storagePath(), 'windy-camera');
-    this.imagePath = this.cfg.imagePath || path.join(base, 'rain.jpg');
+    // A relative image path is kept inside the Homebridge storage folder.
+    const custom = this.cfg.imagePath;
+    this.imagePath = !custom ? path.join(base, 'rain.jpg')
+      : path.isAbsolute(custom) ? custom : path.join(api.user.storagePath(), custom);
     this.tr = (k, a) => t(this.cfg.language, k, a);
     this.cfg.notes.forEach((n) => this.log.warn(this.tr(n)));
 
