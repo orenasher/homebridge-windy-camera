@@ -1,7 +1,7 @@
 {
   "name": "homebridge-windy-camera",
   "displayName": "Rain & Weather Radar",
-  "version": "2.5.2",
+  "version": "2.5.3",
   "description": "Standalone Homebridge plugin: rain radar camera for Apple Home (Windy or satellite/street maps with RainViewer radar) with weather overlay, rain / rain-soon / storm / wind / UV sensors, animated radar loop and fully customizable design. No other plugin or script required.",
   "main": "index.js",
   "license": "MIT",
@@ -25,7 +25,8 @@
     "lib",
     "homebridge-ui",
     "config.schema.json",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
   "dependencies": {
     "playwright-core": "^1.40.0"
@@ -33,5 +34,17 @@
   "optionalDependencies": {
     "ffmpeg-for-homebridge": ">=0.1.0"
   },
-  "author": "Oren Asher"
+  "author": "Oren Asher",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orenasher/homebridge-windy-camera.git"
+  },
+  "bugs": {
+    "url": "https://github.com/orenasher/homebridge-windy-camera/issues"
+  },
+  "homepage": "https://github.com/orenasher/homebridge-windy-camera#readme",
+  "funding": {
+    "type": "paypal",
+    "url": "https://paypal.me/orenasher"
+  }
 }

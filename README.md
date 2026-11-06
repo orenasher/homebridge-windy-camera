@@ -1,4 +1,8 @@
-# homebridge-windy-camera
+# Rain & Weather Radar (homebridge-windy-camera)
+
+[![npm](https://img.shields.io/npm/v/homebridge-windy-camera)](https://www.npmjs.com/package/homebridge-windy-camera) [![downloads](https://img.shields.io/npm/dt/homebridge-windy-camera)](https://www.npmjs.com/package/homebridge-windy-camera) [![Donate](https://img.shields.io/badge/Donate-PayPal-blue?logo=paypal)](https://paypal.me/orenasher)
+
+English | [עברית](#מדריך-בעברית)
 
 A **fully standalone** Homebridge plugin that shows a live **Windy.com rain radar** as a camera in Apple Home, with the **current weather and forecast drawn on the picture**, and a **"is it raining right now?" sensor**.
 
@@ -179,6 +183,10 @@ Version 2 no longer needs **homebridge-camera-ui** or any helper script.
 
 ---
 
+## Support
+
+If this plugin saves you time, you can buy me a coffee: [paypal.me/orenasher](https://paypal.me/orenasher). Thank you!
+
 # מדריך בעברית
 
 תוסף **עצמאי לחלוטין** ל‑Homebridge: מכ״ם גשם של Windy.com כמצלמה באפל הום, עם **מזג האוויר העכשווי והתחזית על התמונה**, ו**חיישן "יורד גשם עכשיו?"**. בלי camera‑ui, בלי סקריפט חיצוני ובלי קבצים ידניים.
@@ -273,3 +281,7 @@ Homebridge UI ← Plugins ← חפשו `homebridge-windy-camera` ← Install. פ
 - פסים שחורים בצדדים באפל הום – הגדירו `aspectRatio` ל‑`16:9` (והסירו `width`/`height` מותאמים כמו 1300×900)
 - ריבועים במקום אייקונים – `sudo apt install fonts-noto-color-emoji` או כבו `overlay.icons`
 - צפייה חיה לא עובדת – `sudo apt install ffmpeg`
+
+## תמיכה
+
+אם התוסף חוסך לך זמן, אפשר לקנות לי קפה: [paypal.me/orenasher](https://paypal.me/orenasher). תודה!
