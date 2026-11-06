@@ -1,3 +1,5 @@
+<p align="center"><img src="icon-512.png" width="120" alt=""></p>
+
 # Rain & Weather Radar (homebridge-windy-camera)
 
 [![npm](https://img.shields.io/npm/v/homebridge-windy-camera)](https://www.npmjs.com/package/homebridge-windy-camera) [![downloads](https://img.shields.io/npm/dt/homebridge-windy-camera)](https://www.npmjs.com/package/homebridge-windy-camera) [![Donate](https://img.shields.io/badge/Donate-PayPal-blue?logo=paypal)](https://paypal.me/orenasher)
